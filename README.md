@@ -35,7 +35,7 @@ sudo ufw app list
 
 You’ll see output like this:
 
-![alt text]()
+![alt text](https://github.com/anjanpaul/Lamp-stack/blob/main/output/Screenshot%202022-02-03%20at%209.45.17%20PM.png)
 
 You can check which port bind using this command
 
@@ -46,7 +46,7 @@ netstat -tulnp
 
 You’ll see output like this:
 
-![alt text]()
+![alt text](https://github.com/anjanpaul/Lamp-stack/blob/main/output/Screenshot%202022-02-03%20at%207.55.39%20PM.png)
 
 This will give you two or three lines back. They are all correct addresses, but your computer may only be able to use one of them, so feel free to try each one.
 
@@ -57,7 +57,7 @@ curl http://icanhazip.com
 
 ```
 
-![alt text]()
+![alt text](https://github.com/anjanpaul/Lamp-stack/blob/main/output/small_apache_default_1804.png)
 
 
 # mysql
