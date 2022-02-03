@@ -102,6 +102,10 @@ To install these packages, run:
 sudo apt install php libapache2-mod-php php-mysql
 
 ```
+php - Installs PHP
+libapache2-mod-php - Used by apache to handle PHP files
+php-mysql - PHP module that allows PHP to connect to MySQL 
+
 
 Once the installation is finished, you can run the following command to confirm your PHP version:
 
