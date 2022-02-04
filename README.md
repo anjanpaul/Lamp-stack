@@ -83,6 +83,7 @@ vim /etc/mysql/mysql.conf.d/mysqld.cnf
 
 ```
 bind-address = 127.0.0.1 to 0.0.0.0
+
 mysqlx-bind-address = 127.0.0.1 to 0.0.0.0
 
 after edit mysqld.cnf please restart mysql.service
