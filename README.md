@@ -97,7 +97,7 @@ Now you can do telnet here by your mysql server ip and port number of the machin
 in my case it was:
 
 ```
-65.30.39.60 3306
+telnet 65.30.39.60 3306
 
 ```
 
