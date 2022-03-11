@@ -125,3 +125,27 @@ Once the installation is finished, you can run the following command to confirm 
 php -v
 
 ```
+
+## Installing phpMyAdmin
+
+```
+sudo apt install phpmyadmin -y
+
+```
+Here are the options you should choose when prompted in order to configure your installation correctly:
+
+* For the server selection, choose apache2 <$>[warning] Warning: When the prompt appears, “apache2” is highlighted, but not selected. If you do not hit SPACE to select Apache, the installer will not move the necessary files during installation. Hit SPACE, TAB, and then ENTER to select Apache. <$>
+* Select Yes when asked whether to use dbconfig-common to set up the database
+* You will then be asked to choose and confirm a MySQL application password for phpMyAdmin
+
+After that you have to configure few more things:
+
+```
+sudo vim /etc/apache2/apache2.conf
+
+```
+and paste this things end of the configureation
+```
+Include /etc/phpmyadmin/apache.conf
+
+```
