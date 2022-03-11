@@ -149,3 +149,14 @@ and paste this things end of the configureation
 Include /etc/phpmyadmin/apache.conf
 
 ```
+For IP:
+```
+curl http://icanhazip.com
+
+```
+
+open you browser and put the ip address:
+```
+http://yourIP/phpmyadmin
+
+```
