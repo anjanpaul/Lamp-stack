@@ -149,6 +149,12 @@ and paste this line end of the configuration
 Include /etc/phpmyadmin/apache.conf
 
 ```
+Restart apache:
+```
+sudo systemctl restart apache2.service
+
+```
+
 For IP:
 ```
 curl http://icanhazip.com
