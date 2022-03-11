@@ -144,7 +144,7 @@ After that you have to configure few more things:
 sudo vim /etc/apache2/apache2.conf
 
 ```
-and paste this things end of the configureation
+and paste this line end of the configuration
 ```
 Include /etc/phpmyadmin/apache.conf
 
