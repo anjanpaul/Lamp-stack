@@ -160,3 +160,4 @@ open you browser and put the ip address:
 http://yourIP/phpmyadmin
 
 ```
+Have a nice Day
